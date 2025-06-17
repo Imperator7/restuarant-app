@@ -1,8 +1,8 @@
+'use client'
+import sampleMenu from '@/data/sampleMenu'
+
 export default function Menu() {
-  const menuItems = [
-    { id: 1, name: 'Pad Thai' },
-    { id: 2, name: 'Burger' },
-  ]
+  const menuItems = sampleMenu
 
   return (
     <div>
